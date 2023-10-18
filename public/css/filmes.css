@@ -1,0 +1,141 @@
+body{
+    background-color: #2F4F4F;
+}
+
+a.navbar-brand {
+    margin-left: 200px;
+}
+
+/* listar-filmes */
+div#listarFilmes {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* Define 3 colunas igualmente espaçadas */
+    grid-gap: 0.5px; /* Define o espaçamento entre os elementos */
+}
+
+img.capa-de-filmes {
+    width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+} 
+
+/* filmes */
+div.container-fluid.filme {
+    display: flex;
+    justify-content: center;
+}
+
+img.capa-de-filme {
+    width: 200px;
+    cursor: pointer;
+} 
+
+div.selectFilme {
+    width: 100%;
+    margin-left: 10px;
+}
+
+div.selectFilme p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+img.icone-filme {
+    margin: 5px;
+}
+
+/*  */
+div.btn-filme {
+    width: 80px;
+    height: 38px;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a#btn-filme {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*  */
+a#assentos {
+    color: #000;
+    font-weight: 600;
+}
+
+a#preco {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+/* ingressos */
+
+div#assentosSelects {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Define 3 colunas igualmente espaçadas */
+    grid-gap: 0.5px; /* Define o espaçamento entre os elementos */
+}
+
+/* finalizar */
+
+p#finalizar {
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+
+
+@media (max-width: 960px) {
+
+    a.navbar-brand {
+        margin-left: 20px;
+    }
+
+    /* listar-filmes */
+    div#listarFilmes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Define 3 colunas igualmente espaçadas */
+        grid-gap: 0.5px; /* Define o espaçamento entre os elementos */
+    }
+
+    div.capa-de-filmes {
+        display: flex;
+        justify-content: center;
+    }
+
+    img.capa-de-filmes {
+        width: 170px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    } 
+
+    /* filmes */
+    div.container-fluid.filme {
+        display: block;
+    }
+
+    img.capa-de-filme {
+        width: 200px;
+        cursor: pointer;
+    }
+
+    div.selectFilme {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    div.selectFilme p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    img.icone-filme {
+        width: 16px;
+        height: 16px;
+    }
+}

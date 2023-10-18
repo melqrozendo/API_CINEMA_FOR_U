@@ -1,0 +1,203 @@
+body{
+    background-color: #2F4F4F;
+}
+
+/* a.navbar-brand {
+    margin-left: 200px;
+} */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh;5 Isso garante que a div esteja centralizada verticalmente */
+    margin-top: 50px;
+}
+
+div#fileira {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* Define 3 colunas igualmente espaçadas */
+    grid-gap: 0.5px; /* Define o espaçamento entre os elementos */
+}
+
+/* assentos nao preferencial = seatA */
+/* Estilizando a caixa de seleção */
+input.seatA[type="checkbox"] {
+    display: none; /* Oculta a caixa de seleção padrão */
+}
+
+/* Estilo da imagem personalizada para a caixa de seleção */
+input.seatA[type="checkbox"] + label {
+    background-image: url('../../img/seat-0.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Estilo da caixa de seleção quando marcada */
+input.seatA[type="checkbox"]:checked + label {
+    background-image: url('../../img/seat-1.png');
+}
+
+/* assentos preferencial = seatC */
+
+/* Estilizando a caixa de seleção */
+input.seatC[type="checkbox"] {
+    display: none; /* Oculta a caixa de seleção padrão */
+}
+
+/* Estilo da imagem personalizada para a caixa de seleção */
+input.seatC[type="checkbox"] + label {
+    background-image: url('../../img/disability-0.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Estilo da caixa de seleção quando marcada */
+input.seatC[type="checkbox"]:checked + label {
+    background-image: url('../../img/disability-1.png');
+}
+
+/* bloco: nome do filme */
+div#nome-filme {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 30%;
+}
+
+h3{
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* bloco: tela */
+div.container-fluid.tela {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+div#tela {
+    width: 80%;
+    height: 20px;
+    border: 1px solid #000;
+    background-color: #000;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* bloco: btn */
+button.btn.btn-primary {
+    margin: 5px;
+}
+
+
+@media (max-width: 960px) {
+    div#fileira {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr); /* Define 3 colunas igualmente espaçadas */
+        grid-gap: 0px; /* Define o espaçamento entre os elementos */
+    }
+    
+    /* assentos nao preferencial = seatA */
+    /* Estilizando a caixa de seleção */
+    input.seatA[type="checkbox"] {
+        display: none; /* Oculta a caixa de seleção padrão */
+    }
+    
+    /* Estilo da imagem personalizada para a caixa de seleção */
+    input.seatA[type="checkbox"] + label {
+        background-image: url('../../img/seat-0.png');
+        background-size: cover;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        margin: 0.8px;
+    }
+    
+    /* Estilo da caixa de seleção quando marcada */
+    input.seatA[type="checkbox"]:checked + label {
+        background-image: url('../../img/seat-1.png');
+    }
+    
+    /* assentos preferencial = seatC */
+    
+    /* Estilizando a caixa de seleção */
+    input.seatC[type="checkbox"] {
+        display: none; /* Oculta a caixa de seleção padrão */
+    }
+    
+    /* Estilo da imagem personalizada para a caixa de seleção */
+    input.seatC[type="checkbox"] + label {
+        background-image: url('../../img/disability-0.png');
+        background-size: cover;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        margin: 0.8px;
+    }
+    
+    /* Estilo da caixa de seleção quando marcada */
+    input.seatC[type="checkbox"]:checked + label {
+        background-image: url('../../img/disability-1.png');
+    }
+
+
+    /* bloco: nome do filme */
+    div#nome-filme {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 50%;
+    }
+    
+    h3 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #FFF;
+        margin-top: 5px;
+    }
+
+
+    /* bloco: tela */
+    div.container-fluid.tela {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    div#tela {
+        width: 80%;
+        height: 16px;
+        border: 1px solid #000;
+        background-color: #000;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+    }
+
+    /* bloco: btn */
+    button.btn.btn-primary {
+        margin: 5px;
+    }
+}

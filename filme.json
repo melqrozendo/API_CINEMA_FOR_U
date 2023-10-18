@@ -1,0 +1,59 @@
+{
+    "filmes": [
+      {
+        "id": 1,
+        "nome_filme": "Som da Liberdade",
+        "genero": "Ação, Drama",
+        "duracao": "131",
+        "descricao": "A incrível história real de um ex-agente governamental que se transforma em um vigilante e que embarca em uma missão perigosa para resgatar centenas de crianças das mãos de traficantes sexuais.",
+        "direcao": "Alejandro Monteverde",
+        "distribuicao": "Paris Filmes",
+        "origem": "USA",
+        "capa_filme": "img/filmes/filme-01.PNG"
+      },
+      {
+        "id": 2,
+        "nome_filme": "O Protetor: Capítulo Final",
+        "genero": "Drama, Suspense",
+        "duracao": "100",
+        "descricao": "Desde que desistiu de sua vida como assassino trabalhando para o governo, Robert McCall (Denzel Washington) tem dificuldades para se reconciliar com as coisas horríveis que fez em seu passado, e encontra um estranho conforto em trazer à justiça aos oprimidos. Após encontrar um lar inesperado no sul da Itália, ele descobre que seus novos amigos vivem sob o controle dos chefes do crime organizado do local. Assim que os eventos se desdobram para acontecimentos mortais, McCall sabe o que precisa fazer: se tornar um protetor para seus amigos e enfrentar a máfia.",
+        "direcao": "Antoine Fuqua",
+        "distribuicao": "Sony Pictures",
+        "origem": "USA",
+        "capa_filme": "img/filmes/filme-02.PNG"
+      },
+      {
+        "id": 3,
+        "nome_filme": "Saw X",
+        "genero": "Suspense, Terror",
+        "duracao": "118",
+        "descricao": "Entre os eventos de 'Jogos Mortais' e 'Jogos Mortais II', um doente e desesperado John Kramer viaja para o México para um arriscado e experimental procedimento médico na esperança de uma cura milagrosa para seu câncer - apenas para descobrir que toda a operação é uma farsa para fraudar os mais vulneráveis. Armado com um propósito recém-descoberto, o infame assassino em série retorna ao seu trabalho, virando a mesa contra os vigaristas em sua maneira visceral característica por meio de armadilhas tortuosas, perturbadas e engenhosas. ",
+        "direcao": "Kevin Greutert",
+        "distribuicao": "Paris Filmes",
+        "origem": "USA",
+        "capa_filme": "img/filmes/filme-03.PNG"
+      },
+      {
+        "id": 4,
+        "nome_filme": "The Creator",
+        "genero": "Ficção",
+        "duracao": "133",
+        "descricao": "Em meio a uma futura guerra entre a raça humana e as forças da inteligência artificial, Joshua, um endurecido ex-agente das forças especiais que lamenta o desaparecimento de sua esposa, é recrutado para caçar e matar o Criador, o indescritível arquiteto da IA ​​avançada que desenvolveu uma arma misteriosa com o poder de acabar com a guerra - e a própria humanidade. ",
+        "direcao": "Gareth Edwards",
+        "distribuicao": "Fox Film",
+        "origem": "USA",
+        "capa_filme": "img/filmes/filme-04.PNG"
+      },
+      {
+        "id": 5,
+        "nome_filme": "Blue Beetle",
+        "genero": "Ação, Aventura, Fantasia",
+        "duracao": "127",
+        "descricao": "O adolescente Jaime Reyes ganha superpoderes quando um misterioso escaravelho se prende à sua coluna e lhe fornece uma poderosa armadura alienígena azul. ",
+        "direcao": "Angel Manuel Soto",
+        "distribuicao": "Warner Bros",
+        "origem": "USA",
+        "capa_filme": "img/filmes/filme-05.PNG"
+      }
+    ]
+}
